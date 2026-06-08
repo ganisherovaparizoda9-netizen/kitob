@@ -9,7 +9,6 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Gemini sozlamasi
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
 def get_ai_response(prompt: str):
