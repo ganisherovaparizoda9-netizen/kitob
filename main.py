@@ -8,7 +8,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-GROQ_API_KEY = "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
+GROQ_API_KEY = "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"
 
 # Gemini sozlamasi
 logging.basicConfig(level=logging.INFO)
