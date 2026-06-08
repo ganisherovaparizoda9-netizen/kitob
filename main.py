@@ -7,8 +7,12 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
+
+GROQ_API_KEY = "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
+
 # Gemini sozlamasi
 logging.basicConfig(level=logging.INFO)
+bot = Bot(token="8997510088:AAEA5bU410nmhp3o4vc3NiDEZYN76_TRQbA")
 dp = Dispatcher()
 
 def get_ai_response(prompt: str):
